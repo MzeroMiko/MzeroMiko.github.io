@@ -1,4 +1,4 @@
-# Personal Homepage
+# [Personal Homepage](https://mzeromiko.github.io/)
 
 This repository contains a lightweight, static personal homepage template used on GitHub Pages. The site is intentionally simple: almost all user-visible content and links are driven from a single configuration file so you only need to edit one place to update the site.
 
