@@ -23,6 +23,22 @@ const CONFIG = {
     // 'news': [
     // ],
     // 'experiences': [
+    //     {
+    //         "icon": "",
+    //         "title": "Research Intern, Xiaohongshu Inc. (Beijing)",
+    //         "author": '<a href="">NLP Group</a>, Shaosheng Cao',
+    //         "pub": "2025.7 - 2026.3",
+    //         "link": `
+    //         `,
+    //     },
+    //     {
+    //         "icon": "",
+    //         "title": "Research Intern, Microsoft Research Asia (Beijing)",
+    //         "author": '<a target="_blank" href="https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/">GenAI Group</a>, Tengchao Lv',
+    //         "pub": "2024.7 - 2025.7",
+    //         "link": `
+    //         `,
+    //     },
     // ],
     'publications': [
         {
