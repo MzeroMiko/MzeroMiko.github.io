@@ -1,3 +1,12 @@
+function setup_head() {
+    const titleTag = document.querySelector('head title');
+    const descMeta = document.querySelector('head meta[name="description"]');
+    titleTag.textContent = CONFIG["head"];
+    if (descMeta) {
+    descMeta.setAttribute('content', CONFIG["head"]);
+    }
+}
+
 function setup_theme() {
     const htmlstore = document.body.querySelector("htmlstore");
     const saved = localStorage.getItem('theme');
@@ -25,16 +34,16 @@ function setup_sidebar() {
     const sidebar = document.body.querySelector(".sidebar");
     sidebar.querySelector(".name").innerHTML = CONFIG["name"];
     sidebar.querySelector(".bio").innerHTML = CONFIG["bio"];
-    sidebar.querySelector(".location span").innerHTML = CONFIG["contact"]["location"];
+    sidebar.querySelector(".location span").innerHTML = CONFIG["contact"]["location"] || "";
 
-    sidebar.querySelector(".mailto").href = CONFIG["contact"]["mail"];
-    sidebar.querySelector(".github").href = CONFIG["contact"]["github"];
-    sidebar.querySelector(".huggingface").href = CONFIG["contact"]["huggingface"];
-    sidebar.querySelector(".google").href = CONFIG["contact"]["google"];
-    sidebar.querySelector(".orcid").href = CONFIG["contact"]["orcid"];
+    sidebar.querySelector(".mailto").href = CONFIG["contact"]["mail"] || "#";
+    sidebar.querySelector(".github").href = CONFIG["contact"]["github"] || "#";
+    sidebar.querySelector(".huggingface").href = CONFIG["contact"]["huggingface"] || "#";
+    sidebar.querySelector(".google").href = CONFIG["contact"]["google"] || "#";
+    sidebar.querySelector(".orcid").href = CONFIG["contact"]["orcid"] || "#";
 
-    sidebar.querySelector(".avatar").src = CONFIG["avatar"]["avatar"];
-    sidebar.querySelector(".banner .wechat img").src = CONFIG["contact"]["wechat"];
+    sidebar.querySelector(".avatar").src = CONFIG["avatar"]["avatar"] || "";
+    sidebar.querySelector(".banner .wechat img").src = CONFIG["contact"]["wechat"] || "";
 
     const banner = sidebar.querySelector('.banner');
     banner.addEventListener('click', () => {
@@ -88,6 +97,7 @@ function setup_footer(){
 }
 
 function main() {
+    setup_head();
     setup_theme();
     setup_sidebar();
     setup_aboutme();

@@ -1,4 +1,5 @@
 const CONFIG = {
+    'head': 'MzeroMiko HomePage',
     'name': 'MzeroMiko (刘悦)',
     'given_name': 'Yue',
     'family_name': 'Liu',

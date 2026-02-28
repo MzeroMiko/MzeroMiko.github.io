@@ -373,8 +373,9 @@ body{
 .main .card.small .icon-card{
     flex-shrink: 0;
     width: 36%;
-    height: 100%;
     padding-right: 0.5em;
+    max-height: 200px;
+    overflow: hidden;
 }
 
 .main .card.small .icon{
