@@ -5,12 +5,12 @@ const CONFIG = {
     'family_name': 'Liu',
     'avatar': {
         'avatar': 'assets/data/avatar.png',
-        'photo': 'assets/data/M.svg',
-        'photo_width': '260',
-        'photo_height': '260',
+        'photo': 'assets/data/photo.jpg',
+        'photo_width': '256',
+        'photo_height': '380',
     },
     'bio': 'Stay Hungry, Stay Foolish.',
-    'aboutme': 'I am a Ph.D. candidate of <a target="_blank" href="http://lamp.ucas.ac.cn/">LAMP Lab.</a> in <a target="_blank" href="https://eece.ucas.edu.cn/index.php/zh-cn/">the School of Electronic, Electrical and Communication Engineering</a>, <a target="_blank" href="https://www.ucas.ac.cn/">University of Chinese Academy of Sciences</a>, advised by Prof. <a target="_blank" href="https://people.ucas.ac.cn/~jiaojianbin">Jianbin Jiao</a> and Prof. <a target="_blank" href="https://people.ucas.ac.cn/~qxye">Qixiang Ye</a>. I got a B.E. degree in the same school, in June 2021.<br>My research interests include <b>vision representation learning</b> and <b>language modeling</b>.',
+    'aboutme': 'I am a Ph.D. candidate of <a target="_blank" href="http://lamp.ucas.ac.cn/">LAMP Lab.</a> in <a target="_blank" href="https://eece.ucas.edu.cn/index.php/zh-cn/">the School of Electronic, Electrical and Communication Engineering</a>, <a target="_blank" href="https://www.ucas.ac.cn/">University of Chinese Academy of Sciences</a>, advised by Prof. <a target="_blank" href="https://people.ucas.ac.cn/~jiaojianbin">Jianbin Jiao</a> and Prof. <a target="_blank" href="https://people.ucas.ac.cn/~qxye">Qixiang Ye</a>. I got a B.E. degree in the same school, in June 2021.<br>My research interests include <b>vision representation learning</b>, <b>discrete diffusion language model</b> and <b>linear attention</b>.',
     'contact': {
         'location': 'Beijing',
         'mail': 'mailto:liuyue171@mails.ucas.ac.cn',
@@ -22,24 +22,24 @@ const CONFIG = {
     },
     // 'news': [
     // ],
-    // 'experiences': [
-    //     {
-    //         "icon": "",
-    //         "title": "Research Intern, Xiaohongshu Inc. (Beijing)",
-    //         "author": '<a href="">NLP Group</a>, Shaosheng Cao',
-    //         "pub": "2025.7 - 2026.3",
-    //         "link": `
-    //         `,
-    //     },
-    //     {
-    //         "icon": "",
-    //         "title": "Research Intern, Microsoft Research Asia (Beijing)",
-    //         "author": '<a target="_blank" href="https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/">GenAI Group</a>, Tengchao Lv',
-    //         "pub": "2024.7 - 2025.7",
-    //         "link": `
-    //         `,
-    //     },
-    // ],
+    'experiences': [
+        {
+            "icon": "assets/data/exps/xiaohongshu_logo.jpg",
+            "title": "Research Intern, Xiaohongshu Inc. (Beijing)",
+            "author": '<a href="">NLP Group</a>, Shaosheng Cao',
+            "pub": "2025.7 - 2026.3. Discrete Diffusion Language Modeling.",
+            "link": `
+            `,
+        },
+        {
+            "icon": "assets/data/exps/msra_logo.jpg",
+            "title": "Research Intern, Microsoft Research Asia (Beijing)",
+            "author": '<a target="_blank" href="https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/">GenAI Group</a>, Tengchao Lv',
+            "pub": "2024.7 - 2025.7. Large Document Model.",
+            "link": `
+            `,
+        },
+    ],
     'publications': [
         {
             "icon": "assets/data/pubs/xdlm.png",
