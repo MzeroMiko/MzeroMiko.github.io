@@ -81,6 +81,7 @@ function setup_secs(name, item_list) {
         ele = document.createElement("div");
         ele.innerHTML = publication_template;
         ele.querySelector(".icon").src = data["icon"];
+        ele.querySelector(".icon-card").style.width = "icon_width" in data? data["icon_width"] + "%": "36%";
         ele.querySelector(".detail .title").innerHTML = data["title"];
         ele.querySelector(".detail .author").innerHTML = data["author"];
         ele.querySelector(".detail .pub").innerHTML = data["pub"];
