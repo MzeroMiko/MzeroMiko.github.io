@@ -47,7 +47,7 @@ const CONFIG = {
             "icon": "assets/data/pubs/xdlm.png",
             "title": "Balancing Understanding and Generation in Discrete Diffusion Models",
             "author": "<b>Yue Liu</b>, Yuzhong Zhao, Zheyong Xie, Qixiang Ye, Jianbin Jiao, Yao Hu, Shaosheng Cao, Yunfan Liu",
-            "pub": "Arxiv 2026",
+            "pub": "ICML 2026 Spotlight",
             "link": `
                 <a target="_blank" href="https://arxiv.org/pdf/2602.01362"><img src="https://img.shields.io/badge/XDLM-arxiv-red?logo=arxiv"></a>
                 <a target="_blank" href="https://mzeromiko.github.io/public/XDLM"><img src="https://img.shields.io/badge/XDLM-page-blue?logo=github"></a>
